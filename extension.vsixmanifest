@@ -1,36 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="AMPPluginTemplate.NET8.BarrerSoftware" Version="2.0.0" Language="en-US" Publisher="BarrerSoftware" />
+    <Identity Id="AMPPluginTemplate.NET8.BarrerSoftware.12345678-1234-1234-1234-123456789abc" Version="2.0.1" Language="en-US" Publisher="BarrerSoftware" />
     <DisplayName>AMP Plugin Template (.NET 8)</DisplayName>
-    <Description xml:space="preserve">Project template for CubeCoders AMP plugins targeting .NET 8. This is an updated, community-maintained version of the legacy .NET Framework 4.8 template. Includes modern SDK-style project format, C# 12 features, nullable reference types, and a complete example web interface.</Description>
-    <MoreInfo>https://barrersoftware.com</MoreInfo>
+    <Description xml:space="preserve">Project template for CubeCoders AMP plugins targeting .NET 8. Includes modern SDK-style project format, C# 12, nullable reference types, and complete web interface example.</Description>
+    <MoreInfo>https://github.com/barrersoftware/AMP-Visual-Studios-plugin</MoreInfo>
     <License>LICENSE.txt</License>
-    <GettingStartedGuide>https://github.com/ssfdre38/amp-plugin-template-net8/blob/master/README.md</GettingStartedGuide>
-    <ReleaseNotes>https://github.com/ssfdre38/amp-plugin-template-net8/releases</ReleaseNotes>
     <Icon>icon.png</Icon>
     <PreviewImage>preview.png</PreviewImage>
-    <Tags>AMP,CubeCoders,Plugin,Template,.NET 8,C#,Game Server,SDK</Tags>
+    <Tags>AMP;CubeCoders;Plugin;Template;.NET 8;C#;Game Server</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-    </InstallationTarget>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-    </InstallationTarget>
-    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,18.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,18.0)" />
   </Installation>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.8,)" />
-  </Dependencies>
   <Prerequisites>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
-    <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[17.0,)" DisplayName="C# and Visual Basic" />
   </Prerequisites>
   <Assets>
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" TargetPath="ProjectTemplates\AMPPluginTemplate.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates\AMPPluginTemplate.zip" />
   </Assets>
 </PackageManifest>
