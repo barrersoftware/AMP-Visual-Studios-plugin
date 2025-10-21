@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="AMPPluginTemplate.NET8" Version="2.0.5" Language="en-US" Publisher="BarrerSoftware" />
+    <DisplayName>AMP Plugin Template (.NET 8)</DisplayName>
+    <Description xml:space="preserve">Project templates for CubeCoders AMP - includes .NET 8 Plugin template with modern SDK-style project and AMP Module template.</Description>
+    <MoreInfo>https://github.com/barrersoftware/AMP-Visual-Studios-plugin</MoreInfo>
+    <License>License.txt</License>
+    <Icon>LogoColor.ico</Icon>
+    <PreviewImage>LogoColor.ico</PreviewImage>
+    <Tags>AMP;CubeCoders;Plugin;Module;Template;.NET 8;C#;Game Server</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+  <Assets>
+  </Assets>
+</PackageManifest>
