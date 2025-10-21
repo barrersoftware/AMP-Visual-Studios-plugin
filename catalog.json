@@ -1,13 +1,13 @@
 {
   "manifestVersion": "1.1",
   "info": {
-    "id": "AMPPluginTemplate.NET8,version=2.0.2",
+    "id": "AMPPluginTemplate.NET8,version=2.0.3",
     "manifestType": "Extension"
   },
   "packages": [
     {
       "id": "Component.AMPPluginTemplate.NET8",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "type": "Component",
       "extension": true,
       "dependencies": {
@@ -23,7 +23,7 @@
     },
     {
       "id": "AMPPluginTemplate.NET8",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "type": "Vsix",
       "payloads": [
         {
@@ -39,3 +39,4 @@
     }
   ]
 }
+
