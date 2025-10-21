@@ -1,0 +1,12 @@
+{
+  "manifestVersion": "1.1",
+  "metadata": {
+    "id": "AMPPluginTemplate.NET8.BarrerSoftware",
+    "version": "2.0.1",
+    "displayName": "AMP Plugin Template (.NET 8)",
+    "description": "Project template for CubeCoders AMP plugins targeting .NET 8",
+    "publisher": "BarrerSoftware",
+    "categories": ["Templates"],
+    "tags": ["AMP", "CubeCoders", "Plugin", "Template", ".NET 8", "C#"]
+  }
+}

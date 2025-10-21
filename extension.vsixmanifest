@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="AMPPluginTemplate.NET8.BarrerSoftware.12345678-1234-1234-1234-123456789abc" Version="2.0.1" Language="en-US" Publisher="BarrerSoftware" />
+    <Identity Id="AMPPluginTemplate.NET8" Version="2.0.1" Language="en-US" Publisher="Barrer Software" />
     <DisplayName>AMP Plugin Template (.NET 8)</DisplayName>
-    <Description xml:space="preserve">Project template for CubeCoders AMP plugins targeting .NET 8. Includes modern SDK-style project format, C# 12, nullable reference types, and complete web interface example.</Description>
+    <Description xml:space="preserve">Project template for CubeCoders AMP plugins targeting .NET 8. Includes modern SDK-style project format, C# 12, and complete web interface example.</Description>
     <MoreInfo>https://github.com/barrersoftware/AMP-Visual-Studios-plugin</MoreInfo>
     <License>LICENSE.txt</License>
     <Icon>icon.png</Icon>
     <PreviewImage>preview.png</PreviewImage>
-    <Tags>AMP;CubeCoders;Plugin;Template;.NET 8;C#;Game Server</Tags>
+    <Tags>AMP,CubeCoders,Plugin,Template,.NET 8,C#,Game Server</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)" />
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,18.0)" />
-    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,18.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
   </Installation>
+  <Dependencies>
+  </Dependencies>
   <Prerequisites>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
   </Prerequisites>

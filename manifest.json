@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": [ "Templates" ],
+  "identity": {
+    "internalName": "AMPPluginTemplate.NET8.BarrerSoftware"
+  },
+  "overview": "README.md",
+  "priceCategory": "free",
+  "publisher": "BarrerSoftware",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/barrersoftware/AMP-Visual-Studios-plugin"
+}
