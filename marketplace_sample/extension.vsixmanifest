@@ -1,0 +1,39 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="AMPPluginTemplate.dacc7d3c-a3db-40f4-96d0-4e9f346eb612" Version="1.1" Language="en-US" Publisher="CubeCoders Limited" />
+    <DisplayName>AMP Module/Plugin Templates</DisplayName>
+    <Description xml:space="preserve">Project template for creating new AMP plugins and modules.</Description>
+    <MoreInfo>https://github.com/cubecoders/amp/wiki/Getting-started-with-AMP-developer-licences</MoreInfo>
+    <License>License.txt</License>
+    <Icon>LogoColor.ico</Icon>
+    <PreviewImage>LogoColor.ico</PreviewImage>
+    <Tags>AMP,SDK,Plugin</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[16.0)" Id="Microsoft.VisualStudio.Community">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[16.0)" Id="Microsoft.VisualStudio.Pro">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[16.0)" Id="Microsoft.VisualStudio.Enterprise">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies></Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="ProjectTemplates" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.Net.ComponentGroup.DevelopmentPrerequisites" Version="[17.2.32408.312,18.0)" DisplayName=".NET Framework 4.7.2 development tools" />
+  </Prerequisites>
+</PackageManifest>

@@ -6,37 +6,10 @@
   },
   "packages": [
     {
-      "id": "Component.AMPPluginTemplate.NET8",
-      "version": "2.0.3",
-      "type": "Component",
-      "extension": true,
-      "dependencies": {
-        "AMPPluginTemplate.NET8": "2.0.2"
-      },
-      "localizedResources": [
-        {
-          "language": "en-US",
-          "title": "AMP Plugin Template (.NET 8)",
-          "description": "Project template for CubeCoders AMP plugins targeting .NET 8"
-        }
-      ]
-    },
-    {
-      "id": "AMPPluginTemplate.NET8",
-      "version": "2.0.3",
       "type": "Vsix",
-      "payloads": [
-        {
-          "fileName": "AMPPluginTemplate.NET8.vsix",
-          "size": 72205
-        }
-      ],
       "vsixId": "AMPPluginTemplate.NET8",
-      "extensionDir": "[installdir]\\Common7\\IDE\\Extensions",
-      "installSizes": {
-        "targetDrive": 150000
-      }
+      "version": "2.0.3",
+      "id": "AMPPluginTemplate.NET8"
     }
   ]
 }
-

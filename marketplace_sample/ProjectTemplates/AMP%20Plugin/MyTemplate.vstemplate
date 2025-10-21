@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>AMP Plugin</Name>
+    <Description>Create a plugin to add new functionality to CubeCoders' AMP.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>AMP Plugin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.ico</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="AMPPluginTemplate.csproj" File="AMPPluginTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="DEVELOPER_README.txt">DEVELOPER_README.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PluginMain.cs">PluginMain.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Settings.cs">Settings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WebMethods.cs">WebMethods.cs</ProjectItem>
+      <Folder Name="WebRoot" TargetFolderName="WebRoot">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Plugin.js">Plugin.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SampleTab.html">SampleTab.html</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
