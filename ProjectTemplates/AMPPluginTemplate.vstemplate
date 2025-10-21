@@ -4,7 +4,9 @@
     <Description>Project template for CubeCoders AMP plugins targeting .NET 8</Description>
     <Icon>__TemplateIcon.png</Icon>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>4.8</RequiredFrameworkVersion>
+    <LanguageTag>C#</LanguageTag>
+    <PlatformTag>Windows</PlatformTag>
+    <ProjectTypeTag>Library</ProjectTypeTag>
     <SortOrder>1000</SortOrder>
     <TemplateID>BarrerSoftware.AMPPluginTemplate.NET8</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
