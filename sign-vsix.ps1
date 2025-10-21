@@ -9,7 +9,7 @@ Write-Host ""
 # Set variables
 $vsixFile = "AMPPluginTemplate.NET8.vsix"
 $certFile = "BarrerSoftware.pfx"
-$certPassword = "BarrerSoftware2025!"
+$certPassword = "Fairfield866"
 $timestamp = "http://timestamp.digicert.com"
 
 # Check if VSIX exists

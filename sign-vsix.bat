@@ -10,7 +10,7 @@ echo.
 REM Set variables
 set VSIX_FILE=AMPPluginTemplate.NET8.vsix
 set CERT_FILE=BarrerSoftware.pfx
-set CERT_PASS=BarrerSoftware2025!
+set CERT_PASS=Fairfield866
 set TIMESTAMP=http://timestamp.digicert.com
 
 REM Check if VSIX exists
