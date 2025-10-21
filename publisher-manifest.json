@@ -1,0 +1,33 @@
+{
+  "manifestVersion": 1,
+  "id": "BarrerSoftware",
+  "publisher": "BarrerSoftware",
+  "version": "1.0.0",
+  "name": "Barrer Software",
+  "description": "Professional software solutions and development tools",
+  "displayName": "Barrer Software",
+  "url": "https://barrersoftware.com",
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "tags": [
+    "CSharp",
+    "Templates",
+    "AMP",
+    "Plugin Development",
+    ".NET 8"
+  ],
+  "galleryBanner": {
+    "color": "#4CAF50",
+    "theme": "dark"
+  },
+  "links": {
+    "home": "https://barrersoftware.com",
+    "repository": "https://github.com/ssfdre38/amp-plugin-template-net8",
+    "issues": "https://github.com/ssfdre38/amp-plugin-template-net8/issues"
+  },
+  "badges": [],
+  "icon": "icon.png",
+  "license": "MIT"
+}

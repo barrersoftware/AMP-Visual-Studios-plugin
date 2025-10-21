@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.vsix.bak
+*.user
+*.suo
+*.cache
+*.log
+
+# Build outputs
+bin/
+obj/
+*.dll
+*.pdb
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,119 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║            VISUAL STUDIO MARKETPLACE - QUICK START                        ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+✅ EVERYTHING IS READY! Here's what to do:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: CREATE PUBLISHER ACCOUNT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Go to: https://marketplace.visualstudio.com/manage
+
+2. Sign in with your Microsoft account
+
+3. Click "Create Publisher"
+
+4. Fill in:
+   Publisher ID: BarrerSoftware
+   Display Name: Barrer Software
+   Description: Professional software development tools and solutions
+   
+5. Verify domain:
+   Domain: barrersoftware.com
+   (Verification files already deployed - it will auto-verify!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 2: UPLOAD EXTENSION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. In publisher dashboard, click "New Extension"
+
+2. Select "Visual Studio"
+
+3. Upload file: /home/ubuntu/AMPPluginTemplate.NET8.vsix
+
+4. The marketplace will read all info from the VSIX:
+   • Name: AMP Plugin Template (.NET 8)
+   • Version: 2.0.0
+   • Description: (already in VSIX)
+   • Tags: AMP, CubeCoders, Plugin, etc.
+
+5. Click "Upload" - Done!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 3: VERIFY IT WORKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Once published (usually instant):
+
+1. Your extension will be at:
+   https://marketplace.visualstudio.com/items?itemName=BarrerSoftware.AMPPluginTemplate-NET8
+
+2. Anyone can install it:
+   • Open Visual Studio 2022
+   • Extensions → Manage Extensions
+   • Search "AMP Plugin Template"
+   • Click Install
+
+3. Test yourself:
+   • File → New → Project
+   • Search "AMP Plugin"
+   • Should appear in results!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Domain verification not working?
+• Wait 1-2 hours for DNS propagation
+• Test: curl https://barrersoftware.com/.well-known-vscode-verification.html
+• Should return HTML with verification meta tag
+
+Upload fails?
+• Check VSIX file size (13 KB is fine, max 50 MB)
+• Verify you're signed in with correct Microsoft account
+• Try again - sometimes it's just a timeout
+
+Publisher account issues?
+• Use your personal Microsoft account
+• If using organization, ensure you have admin rights
+• Contact marketplace support if blocked
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FILES LOCATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+VSIX to upload:
+/home/ubuntu/AMPPluginTemplate.NET8.vsix
+
+Complete guide:
+/home/ubuntu/barrersoftware-marketplace-setup/MARKETPLACE_SETUP_GUIDE.md
+
+Verification files (already deployed):
+https://barrersoftware.com/.well-known-vscode-verification.html
+https://barrersoftware.com/.well-known/vscode-verification.html
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THIS MATTERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Professional distribution through official Microsoft channels
+✓ Accessible to ALL AMP developers worldwide
+✓ Automatic updates via VS Extension Manager
+✓ Searchable in Visual Studio
+✓ Shows CubeCoders the community needs this
+✓ Completely legitimate and transparent
+✓ MIT licensed - free for everyone
+
+This is the RIGHT way to provide an updated template to the community!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Ready to publish! 🚀
