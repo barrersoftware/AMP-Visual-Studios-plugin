@@ -2,9 +2,34 @@
 
 ## Prerequisites
 1. Visual Studio 2022 with VSIX extension development workload installed
-2. BarrerSoftware.pfx certificate file (already in project directory)
+2. Windows SDK (for SignTool.exe) - Install via Visual Studio Installer > Individual Components
+3. BarrerSoftware.pfx certificate file (already in project directory)
 
-## Method 1: Sign During Build (Recommended)
+## Quick Start - Automated Build (Easiest)
+
+### Option A: Use the Build Script (Recommended for Windows)
+
+Simply double-click `build-and-sign-vsix.bat` in the project folder, and it will:
+- Build the VSIX package from all project files
+- Sign it with the Barrer Software certificate
+- Verify the signature
+- Show the output file location
+
+**Or** run in PowerShell from the project directory:
+```powershell
+.\build-and-sign-vsix.ps1
+```
+
+### Option B: Sign an Existing VSIX
+
+If you already have a built `AMPPluginTemplate.NET8.vsix` file:
+
+1. Double-click `sign-vsix.bat`
+2. Or run: `.\sign-vsix.ps1`
+
+---
+
+## Method 1: Sign During Build in Visual Studio (Manual)
 
 ### Step 1: Open Project Properties
 1. Open the VSIX project in Visual Studio 2022
