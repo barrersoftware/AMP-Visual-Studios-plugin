@@ -1,3 +1,12 @@
+/*
+ * Copyright (c) 2025 Barrer Software
+ * 
+ * This file is part of the AMP Visual Studio Plugin.
+ * Licensed under the MIT License - see LICENSE.txt
+ * 
+ * For more information: https://barrersoftware.com
+ */
+
 using ModuleShared;
 using System.Reflection;
 
