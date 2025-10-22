@@ -62,7 +62,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DeployVSTemplates>false</DeployVSTemplates>
-    <ZipProject>false</ZipProject>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
